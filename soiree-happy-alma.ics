@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Happy Alma//Cocktail dinatoire//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cocktail-dinatoire-2026@happyalma
+DTSTAMP:20260930T120000Z
+DTSTART;TZID=Europe/Paris:20261110T193000
+DTEND;TZID=Europe/Paris:20261111T010000
+SUMMARY:Cocktail dînatoire Happy Alma
+DESCRIPTION:Soirée caritative au profit de l'association Happy Alma. Apér
+ itif dînatoire et 2 boissons offertes compris. Présentation du syndrome 
+ d'Angelman et témoignages\, tombola\, DJ. Bar à 23h. Tenue correcte exig
+ ée. Entrée 35 €\, 15 € pour les moins de 12 ans\, gratuit pour les m
+ oins de 3 ans. Uniquement sur réservation. Paiement obligatoire avant le 
+ 25 octobre.
+LOCATION:Espace Saint-Jacques\, 6 rue Saint-Jacques\, 14100 Lisieux
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Demain soir : cocktail dînatoire Happy Alma
+END:VALARM
+END:VEVENT
+END:VCALENDAR

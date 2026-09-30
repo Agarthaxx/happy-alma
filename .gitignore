@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Outils IA (skills, config locale)
+.agents/
+.claude/
+skills-lock.json
+
+# Divers
+*.log
+.env
