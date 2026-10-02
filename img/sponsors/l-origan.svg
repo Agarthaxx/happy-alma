@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 240" width="440" height="240">
+    <rect width="440" height="240" fill="#4f1d0e"/>
+    <text x="220" y="138" text-anchor="middle" fill="#ffffff"
+          font-family="'Snell Roundhand', 'Apple Chancery', 'Brush Script MT', cursive"
+          font-size="84" font-style="italic">L'Origan</text>
+    <rect x="110" y="168" width="220" height="6" rx="3" fill="#b5d15e"/>
+</svg>

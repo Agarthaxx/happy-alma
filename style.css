@@ -1187,7 +1187,7 @@ main:focus {
 .marquee-track {
     display: flex;
     width: max-content;
-    animation: defilement 36s linear infinite;
+    animation: defilement 50s linear infinite;
 }
 
 .marquee-group {
@@ -1232,8 +1232,16 @@ main:focus {
     object-position: 50% 85%;
 }
 
+.sponsor.sponsor-center img {
+    object-position: center;
+}
+
 .sponsor.sponsor-tight {
     padding: 4px;
+}
+
+.sponsor.sponsor-dark {
+    background: var(--ink);
 }
 
 @keyframes defilement {
